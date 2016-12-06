@@ -9,12 +9,12 @@
 <body>
     <h1>Iniciar sesion</h1>
     <p style="background-color: {{color}}; color: #FFFFFF">{{msg}}</p>
-    <form method='post' action="/login">
+    <form method="post" action="/login">
         <label>Usuario:</label>
-        <input type="text" name='username' value="{{username}}">
+        <input type="text" name="username" placeholder="{{userVacio}}" value="{{username}}">
         <label>Contraseña</label>
-        <input type="password" name='password'>
-        <input type="submit" value='Iniciar'>
+        <input type="password" name="password" placeholder="{{passVacio}}">
+        <input type="submit" value="Iniciar">
         <a href="/">Regresar</a>
     </form>
 </body>
