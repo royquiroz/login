@@ -1,0 +1,17 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.12",
+    "mongodb-autoincrement": "^1.0.1",
+    "mongoose": "^4.7.1",
+    "nodemon": "^1.11.0",
+    "nunjucks": "^3.0.0"
+  },
+  "author": "Gonzalo Quiroz",
+  "license": "ISC"
+}
